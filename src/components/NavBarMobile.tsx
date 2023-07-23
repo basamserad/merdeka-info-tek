@@ -8,7 +8,7 @@ function NavBarMobile({ style, closeBtn }: { style: any, closeBtn: any}) {
   return (
     <nav
       style={style}
-      className="flex flex-col bg-gray-600 text-white w-screen h-screen absolute bottom-0 left-0"
+      className="flex flex-col bg-green-700 text-white w-screen h-screen absolute bottom-0 left-0"
     >
       <div className="flex p-4 items-center justify-between mb-16">
         <div className="flex gap-4">
