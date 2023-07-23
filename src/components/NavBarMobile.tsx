@@ -24,7 +24,7 @@ function NavBarMobile({ style, closeBtn }: { style: any, closeBtn: any}) {
         <Link to="/">About</Link>
         <Link to="/">Services</Link>
         <Link to="/">Portfolio</Link>
-        <Link to="/">Contact</Link>
+        <Link to="/">Contact Us</Link>
       </div>
     </nav>
   );

@@ -2,6 +2,7 @@ import logo from "../../public/logo/merdaka.png";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import NavBarMobile from "./NavBarMobile";
 import { useState } from "react";
+import NavBarDesktop from "./NavBarDesktop";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -15,14 +16,14 @@ function Header() {
           <br /> Teknologi
         </p>
       </div>
+      <NavBarDesktop />
       <NavBarMobile
         style={openMenu ? { display: "block" } : { display: "none" }}
         closeBtn={() => setOpenMenu(!openMenu)}
       />
-      <MenuOutlinedIcon
-        style={{ height: "30px", width: "30px" }}
-        onClick={() => setOpenMenu(!openMenu)}
-      />
+      <div className="tablet:hidden" onClick={() => setOpenMenu(!openMenu)}>
+        <MenuOutlinedIcon style={{ height: "30px", width: "30px" }} />
+      </div>
     </header>
   );
 }
