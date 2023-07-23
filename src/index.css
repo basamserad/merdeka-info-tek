@@ -3,16 +3,24 @@
 @tailwind utilities;
 
 @layer base {
-    h1 {
-      @apply text-2xl;
-    }
-    h2 {
-      @apply text-xl;
-    }
-    /* ... */
+  h1 {
+    @apply text-2xl;
   }
+  h2 {
+    @apply text-xl;
+  }
+  /* ... */
+}
 
 * {
-    font-family: 'Poppins', sans-serif;
-    transition: 0.3s;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
+
+.hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/images/heroImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
