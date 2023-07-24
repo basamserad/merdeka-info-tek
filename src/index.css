@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  h1 {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-xl;
-  }
-  /* ... */
-}
-
 * {
   font-family: "Poppins", sans-serif;
   transition: 0.2s;
