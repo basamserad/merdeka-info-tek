@@ -3,9 +3,9 @@ import TeamCard from "../components/TeamCard";
 function About() {
   return (
     <section className="flex flex-col mobile:px-4">
-      <article className="flex flex-col pt-20 gap-5 mb-10 tablet:px-16 desktop:px-44">
+      <article className="flex flex-col pt-20 gap-10 mb-10 tablet:px-16 desktop:px-44">
         <div className="flex-col">
-          <h2 className="capitalize mb-3 font-semibold text-4xl">about us</h2>
+          <h2 className="capitalize mb-5 font-semibold text-4xl">about us</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
             molestias commodi? Sapiente id vel cum rem sequi temporibus delectus
@@ -14,7 +14,7 @@ function About() {
           </p>
         </div>
         <div className="flex-col">
-          <h2 className="capitalize mb-3 font-semibold text-4xl">our vision</h2>
+          <h2 className="capitalize mb-5 font-semibold text-4xl">our vision</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
             molestias commodi? Sapiente id vel cum rem sequi temporibus delectus
