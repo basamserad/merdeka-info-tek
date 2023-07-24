@@ -5,6 +5,7 @@
 * {
   font-family: "Poppins", sans-serif;
   transition: 0.2s;
+  scroll-behavior: smooth;
 }
 
 .hero-bg {
