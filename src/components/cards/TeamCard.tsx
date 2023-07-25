@@ -2,37 +2,37 @@ function TeamCard() {
   const teamData = [
     {
       id: 1,
-      image: "/public/avatar/ceo.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
       name: "Abu Bakr Siddiq",
       position: "CEO",
     },
     {
       id: 2,
-      image: "/public/avatar/fullstack.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
       name: "Fullstack Developer",
       position: "El Chapo",
     },
     {
       id: 3,
-      image: "/public/avatar/frontend.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
       name: "Sharhabeel Morad",
       position: "Front-end Developer",
     },
     {
       id: 4,
-      image: "/public/avatar/backend.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
       name: "Monkey D. Luffy",
       position: "Backend Developer",
     },
     {
       id: 5,
-      image: "/public/avatar/graphic.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
       name: "Emma Watson",
       position: "UI/UX Developer",
     },
     {
       id: 6,
-      image: "/public/avatar/graphic.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
       name: "Elsa Mae",
       position: "Dev Ops",
     },
