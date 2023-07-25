@@ -9,8 +9,8 @@ function TeamCard() {
     {
       id: 2,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj",
-      name: "Fullstack Developer",
-      position: "El Chapo",
+      name: "El Chapo",
+      position: "Fullstack Developer",
     },
     {
       id: 3,
