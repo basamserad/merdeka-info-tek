@@ -42,7 +42,7 @@ function TeamCard() {
     <>
       {teamData.map((data) => (
         <div
-          className="flex flex-col place-content-center items-center border border-gray-300 rounded-md h-72 w-60 px-10 py-10 text-center"
+          className="flex flex-col place-content-center items-center border border-gray-300 rounded-md h-72 w-60 px-5 py-10 text-center"
           key={data.id}
         >
           <img src={data.image} alt={data.name} className="h-32 w-32 mb-4" />
