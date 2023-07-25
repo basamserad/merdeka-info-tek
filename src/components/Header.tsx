@@ -8,7 +8,7 @@ function Header() {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
 
   return (
-    <header className="flex items-center justify-between p-4 fixed bg-white w-screen laptop:px-20">
+    <header className="flex items-center justify-between p-4 fixed bg-white w-screen z-50 laptop:px-20">
       <div className="flex gap-4">
         <img className="h-14 w-14" src={logo} alt="merdaka logo" />
         <p className="text-lg font-medium">
@@ -18,7 +18,7 @@ function Header() {
       </div>
       <NavBarDesktop />
       <NavBarMobile
-        style={openMenu ? { display: "block" } : { display: "none" }}
+        style={openMenu ? { display: "flex" } : { display: "none" }}
         closeBtn={() => setOpenMenu(!openMenu)}
       />
       <div className="tablet:hidden" onClick={() => setOpenMenu(!openMenu)}>
