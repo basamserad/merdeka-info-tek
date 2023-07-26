@@ -21,16 +21,16 @@ function NavBarMobile({ style, closeBtn }: { style: any; closeBtn: any }) {
         />
       </div>
       <div className="flex flex-col text-4xl font-semibold items-center gap-4">
-        <a onClick={closeBtn} href="#about-us">
+        <a className="hover:text-yellow-500" onClick={closeBtn} href="#about-us">
           About
         </a>
-        <a onClick={closeBtn} href="#services">
+        <a className="hover:text-yellow-500" onClick={closeBtn} href="#services">
           Services
         </a>
-        <a onClick={closeBtn} href="#portfolio">
+        <a className="hover:text-yellow-500" onClick={closeBtn} href="#portfolio">
           Portfolio
         </a>
-        <a onClick={closeBtn} href="#contact-us">
+        <a className="hover:text-yellow-500" onClick={closeBtn} href="#contact-us">
           Contact Us
         </a>
       </div>
