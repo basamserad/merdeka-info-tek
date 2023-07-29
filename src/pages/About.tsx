@@ -7,10 +7,10 @@ function About() {
         <div className="flex-col">
           <h2 className="capitalize mb-5 font-semibold text-4xl">about us</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-            molestias commodi? Sapiente id vel cum rem sequi temporibus delectus
-            laboriosam asperiores eaque, commodi dolores neque enim illum,
-            blanditiis facere excepturi.
+          At Merdeka Info Tek, we are passionate about empowering the Muslim community with the latest information and technology. 
+          Our journey began when a Muslim revert assembled and organized a team of Muslim programmers and developers, 
+          regardless of tribes and nationality, and came up with an idea to prioritize providing I.T. services for the Muslim Ummah. 
+          Since then, we have been dedicated to innovating and sharing our skills not just with Muslim minorities but also with everyone else.
           </p>
         </div>
         <div className="flex-col">
