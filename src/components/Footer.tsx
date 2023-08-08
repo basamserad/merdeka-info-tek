@@ -18,7 +18,7 @@ function Footer() {
           <img className="h-7 w-7" src={github} alt="github" />
         </div>
         <p className="text-xs text-center mb-3">
-          &copy; Merdeka Info Teknologi. All rights reserved
+          Copyright &copy; {new Date().getFullYear()} Merdeka Info Teknologi. All rights reserved
         </p>
       </div>
     </footer>
