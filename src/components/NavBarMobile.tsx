@@ -7,7 +7,7 @@ function NavBarMobile({ style, closeBtn }: { style: any; closeBtn: any }) {
       style={style}
       className="flex flex-col bg-black text-white w-screen h-screen absolute top-0 left-0"
     >
-      <div className="flex p-4 items-center justify-between mb-16">
+      <div className="flex p-4 items-center justify-between mb-8">
         <div className="flex gap-4">
           <img className="h-14 w-14" src={logo} alt="merdaka logo" />
           <p className="text-lg font-medium">
@@ -20,17 +20,20 @@ function NavBarMobile({ style, closeBtn }: { style: any; closeBtn: any }) {
           onClick={closeBtn}
         />
       </div>
-      <div className="flex flex-col text-4xl font-semibold items-center gap-4">
-        <a className="hover:text-yellow-500" onClick={closeBtn} href="#about-us">
+      <div className="flex flex-col text-4xl font-semibold text-right pr-5 gap-4">
+        <a onClick={closeBtn} href="#">
+          Home
+        </a>
+        <a onClick={closeBtn} href="#about-us">
           About
         </a>
-        <a className="hover:text-yellow-500" onClick={closeBtn} href="#services">
+        <a onClick={closeBtn} href="#services">
           Services
         </a>
-        <a className="hover:text-yellow-500" onClick={closeBtn} href="#portfolio">
+        <a onClick={closeBtn} href="#portfolio">
           Portfolio
         </a>
-        <a className="hover:text-yellow-500" onClick={closeBtn} href="#contact-us">
+        <a onClick={closeBtn} href="#contact-us">
           Contact Us
         </a>
       </div>
